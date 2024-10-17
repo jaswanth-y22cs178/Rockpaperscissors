@@ -1,0 +1,29 @@
+import random
+
+Remark details
+
+<
+
+user score=0
+
+computer_score=0
+
+while(True):
+
+user=input("Enter your choice:").strip().lower() if user in ['rock', 'paper', 'scissor']: computer=random.choice(['rock', 'paper', 'scissor']) print("User choice:", user) print("Computer choice:",computer) if user==computer:
+
+print("It's a tie")
+
+elif ((user=='rock" and computer=='paper) or (user=='paper and computer=='scissor') or (user=='scissor and computer=='rock')): print("You lose") computer score+=1
+
+else:
+
+print("You win") user score+=1 print("Your score:", user_score) print("Computer's score:", computer_score)
+
+else:
+
+print("Invalid choice") s=input("Do you want to continue(y/n):").strip().lower()
+
+if sl='y':
+
+break;
